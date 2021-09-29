@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Quiz Assignment</title>
+</head>
+<body>
+    <section id="quiz">
+        <div id="correct">
+            <h2></h2>
+        </div>
+        <div class="images">
+            <img id="img1" src="success.gif" style="display: none;">
+            <img id="img2" src="mortar.gif" style="display: none;">
+        </div>
+        <form name="quiz">
+        <div id="questions">
+            <h2>How to make a Frugee Salad</h2>
+            <div class='choice-container'>
+                <label><input type="radio" name='question1' data-item="Follow0" value="Roger"/> Follow Uncle Roger</label>
+                <label><input type="radio" name='question1' data-item="Follow1" value="Yash"/> Follow Coach Yash</label>
+                <label><input type="radio" name='question1' data-item="Follow2" value="Lamzay"/> Follow gooh-den lamzay</label>
+                <label><input type="radio" name='question1' data-item="Follow3" value="Jamie"/> Follow Jamie Oliver</label>
+            </div>
+        </div>
+        <div id="questions">
+            <h2>Which of the following is an expensive car?</h2>
+            <div class='choice-container'>
+                <label><input type="radio" name='question2' value="Unicorn"/> Unicorn</label>
+                <label><input type="radio" name='question2' value="Mercedes"/> Mercedes</label>
+                <label><input type="radio" name='question2' value="Perodua"/> Perodua</label>
+                <label><input type="radio" name='question2' value="Batmobile"/> The BatMobile</label>
+            </div>
+        </div>
+        <div id="questions">
+            <h2>How to escape a bear attack?</h2>
+            <div class='choice-container'>
+            <label><input type="radio" name='question3' value="Face"/> Face it</label>
+            <label><input type="radio" name='question3' value="Coach"/> Follow Coach Yash</label>
+            <label><input type="radio" name='question3' value="Tree"/> Climb a tree</label>
+            <label><input type="radio" name='question3' value="Dead"/> Play Dead</label>
+        </div>
+    </div>
+    <div id="questions">
+        <h2>Which of the following has more monetary value?</h2>
+        <div class='choice-container'>
+            <label><input type="radio" name='question4' value="Diamond"/> Diamond</label>
+            <label><input type="radio" name='question4' value="GOld"/> Gold</label>
+            <label><input type="radio" name='question4' value="Kakakaka"/> Kakakaka</label>
+            <label><input type="radio" name='question4' value="Happiness"/> Happiness</label>
+        </div>
+    </div>
+    <div id="questions">
+        <h2>Which of the following is 'not' a swimming techinque?</h2>
+        <div class='choice-container'>
+            <label><input type="radio"  name='question5' value="Freestyle"/> Freestyle</label>
+            <label><input type="radio"  name='question5' value="Breaststroke"/> Breaststroke</label>
+            <label><input type="radio"  name='question5' value="Donkey"/> Donkey</label>
+            <label><input type="radio"  name='question5' value="Butterfly"/> Butterfly</label>
+        </div>
+    </div>
+    <button type="button" onclick="answer()">I'm Finished</button>
+    <button type="button" id="retry">Retry</button>
+</form>
+</section>
+<script type="text/javascript" src="script2.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+#quiz {
+    margin: 0 30px;
+}
+
+#quiz #questions {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#quiz h2 {
+    text-align: center;
+}
+
+#quiz .choice-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: blueviolet;
+    transition: .4s ease;
+}
+
+#submitted h2 {
+    text-align: center;
+}
+
+#correct h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+#img1 {
+    display: block;
+    margin: 0 auto;
+}
+
+#img2 {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 239px;
+}
